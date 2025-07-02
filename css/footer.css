@@ -1,0 +1,70 @@
+footer {
+  background-color: rgb(238, 230, 230);
+  height: 164px;
+  width: 1661px;
+  display: grid;
+  grid-template-columns: 791.5px 78px 791.5px;
+  grid-template-rows: 64px 100px;
+  grid-template-areas:
+    "f_list f_list f_list"
+    "vk wu inst";
+}
+
+ul li {
+  font-weight: 700;
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.footer_list {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  grid-template-rows: 54px;
+  grid-area: f_list;
+  justify-content: center;
+  gap: 15px;
+}
+
+.vk {
+  display: grid;
+  grid-area: vk;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 761.5px;
+}
+
+.wu {
+  display: grid;
+  grid-area: wu;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 24px;
+}
+
+.inst {
+  display: grid;
+  grid-area: inst;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.wu_img,
+.inst_img {
+  width: 15px;
+  height: 15px;
+  margin-top: 7.5px;
+  margin-left: 8px;
+}
+
+.vk_img {
+  width: 17px;
+  height: 12px;
+  margin-top: 8.5px;
+  margin-left: 6px;
+}

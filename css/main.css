@@ -1,0 +1,365 @@
+main {
+  width: 1661px;
+  background-color: rgb(238, 230, 230);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.main_screen {
+  background-image: url('../img/bgcl.png');
+  background-repeat: no-repeat;
+  height: 539px;
+  width: 1611px;
+  display: grid;
+  background-position-x: 50px;
+  background-position-y: 40px;
+  grid-template-columns: 560px repeat(2, 1fr);
+  grid-template-rows: 103px 146px 60px 260px;
+  grid-template-areas:
+    "champ  black_bag  button_src"
+    "gift  black_bag  energy"
+    "more  black_bag  energy"
+    "con1  con2  con3";
+}
+
+.black_bag {
+  height: 464px;
+  grid-area: black_bag;
+  grid-row: 1 / span 3;
+  margin-left: 134px;
+  margin-top: 55px;
+}
+
+.con1,
+.con2,
+.con3 {
+  display: flex;
+  background-color: whitesmoke;
+  width: 350px;
+  height: 165px;
+  margin-left: 10px;
+}
+
+.champ {
+  grid-area: champ;
+  width: 122px;
+  height: 33px;
+  margin-top: 80px;
+  margin-left: 210px;
+}
+
+.button_scr {
+  grid-area: button_src;
+  margin-top: 40px;
+  margin-left: 210px;
+}
+
+.for_gift {
+  grid-area: gift;
+  font-weight: 700;
+  font-size: 42px;
+  color: white;
+  margin: 35px 0 0 210px;
+}
+
+.energy {
+  grid-area: energy;
+  grid-row: 2 / span 2;
+  font-size: 75px;
+  font-weight: 300;
+  color: white;
+}
+
+.more {
+  grid-area: more;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 210px;
+  margin-top: 25px;
+}
+
+.more_img {
+  width: 37px;
+  height: 20px;
+  margin-top: 10px;
+  position: absolute;
+  margin: -20px 0 0 117px;
+}
+
+.con1 {
+  grid-area: con1;
+  margin-left: 210px;
+  margin-top: 40px;
+}
+
+.con2 {
+  grid-area: con2;
+  margin-left: 88px;
+  margin-top: 40px;
+}
+
+.con3 {
+  grid-area: con3;
+  margin-top: 40px;
+}
+
+.main_sale {
+  background-color: rgb(238, 230, 230);
+  width: 1611px;
+  height: 355px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 33% 67%;
+}
+
+.brushes_awm {
+  background-image: url('../img/awm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 300px;
+  margin-left: 160px;
+  color: white;
+}
+
+.awm_more {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 135px;
+  margin-left: 40px;
+  display: block;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.sales {
+  background-image: url('../img/rosdot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 300px;
+  margin-left: 65px;
+  color: white;
+}
+
+.sales_more {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.low_price {
+  display: inline-block;
+  background-color: orangered;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  margin: -23px 0 0 600px;
+}
+
+.brushes_awm_word {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 40px 0 0 40px;
+}
+
+.all_january {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 40px 0 0 40px;
+}
+
+.sale_20 {
+  font-weight: 700;
+  font-size: 30px;
+  display: block;
+  margin: 60px 0 0 40px;
+}
+
+.con1 {
+  display: grid;
+  grid-template-columns: 60px 290px;
+  grid-template-rows: 55px 20px 30px 60px;
+  grid-template-areas:
+    "num_01  free_call"
+    "num_01  all_numbers"
+    "num_01 number_main"
+    "num_01 zvani_wu";
+}
+
+.con2 {
+  display: grid;
+  grid-template-columns: 60px 290px;
+  grid-template-rows: 55px 50px 60px;
+  grid-template-areas:
+    "num_02  free_pod"
+    "naeb  naeb"
+    "podbor podbor";
+}
+
+.con3 {
+  display: grid;
+  grid-template-columns: 60px 290px;
+  grid-template-rows: 55px 50px 60px;
+  grid-template-areas:
+    "num_03  free_mail"
+    "num_03  naebx"
+    "num_03 out";
+}
+
+.num_01 {
+  font-weight: 900;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.3);
+  grid-area: num_01;
+  margin: 16px 0 0 16px;
+}
+
+.num_02 {
+  font-weight: 900;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.3);
+  grid-area: num_02;
+  margin: 16px 0 0 8px;
+}
+
+.num_03 {
+  font-weight: 900;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.3);
+  grid-area: num_03;
+  margin: 16px 0 0 8px;
+}
+
+.free_call {
+  font-weight: 700;
+  font-size: 24px;
+  grid-area: free_call;
+}
+
+.all_numbers {
+  font-weight: 400;
+  font-size: 14px;
+  grid-area: all_numbers;
+  height: 22px;
+  margin: 0;
+}
+
+.zvani_wu {
+  display: grid;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 2px solid #3ca255;
+  width: 250px;
+  height: 40px;
+  grid-area: zvani_wu;
+  grid-template-columns: 50px 190px;
+  grid-template-rows: 30px;
+  grid-template-areas: "icon_menu  number_wugrn";
+}
+
+.number_wugrn {
+  display: grid;
+  color: #3ca255;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 7px 20px 0 0;
+  grid-area: number_wugrn;
+}
+
+.number_main {
+  font-weight: 400;
+  font-size: 24px;
+  grid-area: number_main;
+}
+
+.application_for_selection {
+  display: inline-grid;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 2px solid #1c69d4;
+  width: 250px;
+  height: 40px;
+  grid-area: podbor;
+  margin-left: 60px;
+}
+
+.application_for_selection_button {
+  color: #1c69d4;
+  padding-top: 8px;
+}
+
+.delivery_button {
+  display: inline-grid;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 2px solid #1c69d4;
+  width: 250px;
+  height: 40px;
+  grid-area: out;
+}
+
+.delivery_button_point {
+  color: #1c69d4;
+  padding-top: 8px;
+}
+
+.free_selection {
+  font-weight: 700;
+  font-size: 24px;
+  grid-area: free_pod;
+}
+
+.best_condition {
+  font-weight: 400;
+  font-size: 10px;
+  grid-area: naeb;
+  height: 52px;
+  margin: -5px 0 0 60px;
+}
+
+.free_delivery {
+  font-weight: 700;
+  font-size: 24px;
+  grid-area: free_mail;
+}
+
+.best_delivery {
+  font-weight: 400;
+  font-size: 12px;
+  grid-area: naebx;
+  height: 52px;
+  margin: 0;
+}
+
+.icon_wu {
+  display: grid;
+  margin: 3px 0 0 20px;
+  grid-area: icon_menu;
+}
+
+.scr1,
+.scr2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 0;
+  border: none;
+  color: rgb(161, 17, 17);
+}
+.scroll_left,
+.scroll_right {
+    margin-left: 17px; ;
+}

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "Gotham_pro";
+    src: local("Gotham_pro Regular"), local("Gotham_pro-Regular"),
+      url("../fonts/Gotham_pro/Montserrat-Regular.woff2") format("woff2"),
+      url("../fonts/Gotham_pro/Montserrat-Regular.woff") format("woff"),
+}
