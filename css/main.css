@@ -1,6 +1,6 @@
 main {
   width: 1661px;
-  background-color: rgb(238, 230, 230);
+  background-color: var(--background-white);
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -58,7 +58,7 @@ main {
   grid-area: gift;
   font-weight: 700;
   font-size: 42px;
-  color: white;
+  color: var(--main-white);
   margin: 35px 0 0 210px;
 }
 
@@ -67,7 +67,7 @@ main {
   grid-row: 2 / span 2;
   font-size: 75px;
   font-weight: 300;
-  color: white;
+  color: var(--main-white);
 }
 
 .more {
@@ -104,7 +104,7 @@ main {
 }
 
 .main_sale {
-  background-color: rgb(238, 230, 230);
+  background-color: var(--background-white);
   width: 1611px;
   height: 355px;
   margin-left: 50px;
@@ -119,11 +119,11 @@ main {
   width: 350px;
   height: 300px;
   margin-left: 160px;
-  color: white;
+  color: var(--main-white);
 }
 
 .awm_more {
-  color: white;
+  color: var(--main-white);
   font-weight: 700;
   font-size: 16px;
   margin-top: 135px;
@@ -140,11 +140,11 @@ main {
   width: 800px;
   height: 300px;
   margin-left: 65px;
-  color: white;
+  color: var(--main-white);
 }
 
 .sales_more {
-  color: white;
+  color: var(--main-white);
   font-weight: 700;
   font-size: 16px;
   text-decoration: underline;
@@ -220,7 +220,7 @@ main {
 .num_01 {
   font-weight: 900;
   font-size: 36px;
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--num-dark);
   grid-area: num_01;
   margin: 16px 0 0 16px;
 }
@@ -228,7 +228,7 @@ main {
 .num_02 {
   font-weight: 900;
   font-size: 36px;
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--num-dark);
   grid-area: num_02;
   margin: 16px 0 0 8px;
 }
@@ -236,7 +236,7 @@ main {
 .num_03 {
   font-weight: 900;
   font-size: 36px;
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--num-dark);
   grid-area: num_03;
   margin: 16px 0 0 8px;
 }
@@ -257,10 +257,10 @@ main {
 
 .zvani_wu {
   display: grid;
-  background-color: white;
+  background-color: var(--main-white);
   border-radius: 4px;
   box-shadow: none;
-  border: 2px solid #3ca255;
+  border: 2px solid var(--wu-green);;
   width: 250px;
   height: 40px;
   grid-area: zvani_wu;
@@ -271,7 +271,7 @@ main {
 
 .number_wugrn {
   display: grid;
-  color: #3ca255;
+  color: var(--wu-green);
   font-weight: 700;
   font-size: 16px;
   margin: 7px 20px 0 0;
@@ -286,10 +286,10 @@ main {
 
 .application_for_selection {
   display: inline-grid;
-  background-color: white;
+  background-color: var(--main-white);
   border-radius: 4px;
   box-shadow: none;
-  border: 2px solid #1c69d4;
+  border: 2px solid var(--border-blue);
   width: 250px;
   height: 40px;
   grid-area: podbor;
@@ -297,23 +297,23 @@ main {
 }
 
 .application_for_selection_button {
-  color: #1c69d4;
+  color: var(--border-blue);
   padding-top: 8px;
 }
 
 .delivery_button {
   display: inline-grid;
-  background-color: white;
+  background-color: var(--main-white);
   border-radius: 4px;
   box-shadow: none;
-  border: 2px solid #1c69d4;
+  border: 2px solid var(--border-blue);
   width: 250px;
   height: 40px;
   grid-area: out;
 }
 
 .delivery_button_point {
-  color: #1c69d4;
+  color: var(--border-blue);
   padding-top: 8px;
 }
 
@@ -351,13 +351,12 @@ main {
   grid-area: icon_menu;
 }
 
-.scr1,
-.scr2 {
+.scr-1,
+.scr-2 {
   width: 80px;
   height: 80px;
   border-radius: 0;
   border: none;
-  color: rgb(161, 17, 17);
 }
 .scroll_left,
 .scroll_right {

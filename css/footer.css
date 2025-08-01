@@ -1,5 +1,5 @@
 footer {
-  background-color: rgb(238, 230, 230);
+  background-color: var(--background-white);
   height: 164px;
   width: 1661px;
   display: grid;
@@ -30,7 +30,7 @@ ul li {
   grid-area: vk;
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-color: var(--main-white);
   border-radius: 50%;
   margin-left: 761.5px;
 }
@@ -40,7 +40,7 @@ ul li {
   grid-area: wu;
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-color: var(--main-white);
   border-radius: 50%;
   margin-left: 24px;
 }
@@ -50,7 +50,7 @@ ul li {
   grid-area: inst;
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-color: var(--main-white);
   border-radius: 50%;
 }
 
