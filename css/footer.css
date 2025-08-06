@@ -1,7 +1,7 @@
 footer {
   background-color: var(--background-white);
   height: 164px;
-  width: 1661px;
+  width: 100%px;
   display: grid;
   grid-template-columns: 791.5px 78px 791.5px;
   grid-template-rows: 64px 100px;
